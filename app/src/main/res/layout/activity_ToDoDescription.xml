@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   
+
+    <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+     tools:context="com.example.shivansh.to_dolist">
+
+    <TextView
+        android:id="@+id/desc1_text_view"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_blue_bright"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="Description"
+        android:textColor="@android:color/black"
+        android:paddingLeft="100dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/desc_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/desc1_text_view"
+        android:background="@android:color/darker_gray"
+
+
+
+
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="133dp"
+        android:paddingRight="10dp"
+        android:text=""
+
+        android:textColor="#FFDE03"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+
+            android:background="@android:color/holo_green_light"
+            android:text="Name"
+
+            android:textAllCaps="true" />
+
+        <TextView
+
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+
+            android:layout_height="48dp"
+
+            android:text=""
+            android:textColor="@android:color/black"
+
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+
+
+            android:text="deadline"
+            android:background="@android:color/holo_green_light"
+            android:textAllCaps="true" />
+
+        <TextView
+
+            android:id="@+id/deadline_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+
+
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="150dp"
+            android:paddingTop="14dp"
+            android:text="priority"
+            android:background="@android:color/holo_orange_dark"
+            android:textAllCaps="true"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text=""
+
+            android:id="@+id/priority_text_view"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="135dp"
+            android:paddingTop="13dp"
+            android:text="NOTIFICATIONS"
+            android:background="@android:color/holo_orange_dark"
+            android:textAllCaps="true" />
+
+        <TextView
+
+            android:id="@+id/noti_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="8dp"
+
+            android:paddingRight="8dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:onClick="delete"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edit task"
+            android:onClick="editask"/>
+
+    </LinearLayout>
+
+
+
+
